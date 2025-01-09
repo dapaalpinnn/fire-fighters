@@ -6,7 +6,34 @@
     <title>Tailwind Tutorial</title>
     <link rel="stylesheet" href="css/tailwind.css" />
   </head>
-  <body>
-    <h1>Hello World!</h1>
+  <body class="bg-black font-inter">
+    <div class="px-8 py-12">
+      <div class="flex items-center gap-8">
+        <img src="img/sensor-fire.svg" alt="Fire Logo" class="w-14" />
+        <a href="#" class="font-semibold text-4xl text-slate-300"
+          >Firefighters</a
+        >
+      </div>
+      <img
+        src="img/fire-fighter.jpg"
+        alt="Firefighter Clothes"
+        class="mt-6 rounded-2xl shadow-xl"
+      />
+      <h1 class="mt-6 text-4xl font-bold leading-tight text-slate-300">
+        Fighting Fires, <span class="text-red-500">Saving Lives</span>
+      </h1>
+      <p class="mt-2 leading-tight text-slate-400">
+        Imagine a world engulfed in flames. In the midst of chaos and
+        destruction, they stand tall: the firefighters. With unwavering courage,
+        they race into danger to save lives and protect property.
+      </p>
+      <div class="mt-6">
+        <a
+          href="#"
+          class="inline-block text-sm rounded-lg bg-red-600 px-4 py-2 tracking-wide font-semibold text-white hover:bg-red-700"
+          >Fire History
+        </a>
+      </div>
+    </div>
   </body>
 </html>

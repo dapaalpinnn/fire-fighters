@@ -7,32 +7,60 @@
     <link rel="stylesheet" href="css/tailwind.css" />
   </head>
   <body class="bg-black font-inter">
-    <div class="px-8 py-12">
-      <div class="flex items-center gap-8">
-        <img src="img/sensor-fire.svg" alt="Fire Logo" class="w-14" />
-        <a href="#" class="font-semibold text-4xl text-slate-300"
-          >Firefighters</a
-        >
+    <div
+      class="bg-slate-700 w-1/2 absolute top-5 rotate-[-50deg] right-0 h-10 -z-10 rounded-full blur-2xl sm:bg-slate-500 sm:blur-3xl brightness-125 lg:left-2 lg:p-6 lg:w-1/3 lg:h-12"
+    ></div>
+
+    <div class="grid lg:grid-cols-2 2xl:grid-cols-5">
+      <div
+        class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0 2xl:col-span-2"
+      >
+        <div class="xl:max-w-xl">
+          <div class="flex items-center gap-4">
+            <img
+              src="img/sensor-fire.svg"
+              alt="Fire Logo"
+              class="w-10 lg:w-6"
+            />
+            <a
+              href="#"
+              class="font-semibold text-2xl sm:text-3xl text-slate-300 lg:text-xl"
+              >Firefighters</a
+            >
+          </div>
+          <img
+            src="img/fire-fighter.jpg"
+            alt="Firefighter Clothes"
+            class="mt-6 rounded-2xl shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden"
+          />
+          <h1
+            class="mt-6 text-3xl font-bold leading-tight text-slate-300 sm:mt-8 sm:text-4xl lg:text-[2.1rem]"
+          >
+            Fighting Fires,
+            <span class="text-red-500">Saving Lives</span>
+          </h1>
+          <p
+            class="mt-2 leading-tight text-slate-400 sm:text-lg sm:leading-tight sm:mt-4 lg:text-base lg:tracking-tight lg:leading-snug"
+          >
+            Imagine a world engulfed in flames. In the midst of chaos and
+            destruction, they stand tall: the firefighters. With unwavering
+            courage, they race into danger to save lives and protect property.
+          </p>
+          <div class="mt-6">
+            <a
+              href="#"
+              class="inline-block text-sm rounded-lg bg-red-600 px-4 py-2 tracking-wide font-semibold text-white hover:bg-red-700 sm:text-base lg:text-sm"
+              >Fire History
+            </a>
+          </div>
+        </div>
       </div>
-      <img
-        src="img/fire-fighter.jpg"
-        alt="Firefighter Clothes"
-        class="mt-6 rounded-2xl shadow-xl"
-      />
-      <h1 class="mt-6 text-4xl font-bold leading-tight text-slate-300">
-        Fighting Fires, <span class="text-red-500">Saving Lives</span>
-      </h1>
-      <p class="mt-2 leading-tight text-slate-400">
-        Imagine a world engulfed in flames. In the midst of chaos and
-        destruction, they stand tall: the firefighters. With unwavering courage,
-        they race into danger to save lives and protect property.
-      </p>
-      <div class="mt-6">
-        <a
-          href="#"
-          class="inline-block text-sm rounded-lg bg-red-600 px-4 py-2 tracking-wide font-semibold text-white hover:bg-red-700"
-          >Fire History
-        </a>
+      <div class="hidden relative lg:block 2xl:col-span-3">
+        <img
+          src="img/fire-fighter.jpg"
+          alt="Firefighter Clothes"
+          class="absolute inset-0 w-full h-full object-cover object-center"
+        />
       </div>
     </div>
   </body>
